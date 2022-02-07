@@ -32,4 +32,4 @@ int main()
   cout << "}";
   return 0;
 }
-//Se dau 2 numere n, m. Pentru multimile A={x1,x2,...,xn} si B={y1,y2,...,xm} sa se afiseze A x B
+//Se dau 2 numere n, m. Pentru multimile A={x1,x2,...,xn} si B={y1,y2,...,ym} sa se afiseze A x B
