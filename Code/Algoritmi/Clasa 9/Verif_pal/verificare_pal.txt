@@ -1,0 +1,15 @@
+bool palindrom(int n)
+{
+  int pal = 0, cn = n;
+  while (n)
+  {
+    int c = n % 10;
+    pal = pal * 10 + c;
+    n /= 10;
+  }
+  if (pal == cn)
+  {
+    return true;
+  }
+  return false;
+}
