@@ -20,3 +20,4 @@
 
 ## Fun
 - Caesar cypher cryptor / decryptor
+- Josephus problem - solved using a circular linked list
