@@ -28,3 +28,11 @@ int cifrePare(int n)
 
 //Creeaza un nr nou din cifrele pare ale lui n (elimina cifrele impare), daca nr ul este nu contine cifre impare sau
 //toate sunt impare atunci se returneaza -1
+
+/*
+OBS:
+nrNou = nrNou * 10 + n % 10; va rezulta numarul cu cifrele lui n de la DREAPTA la STANGA
+nrNou = n % 10 * put + nrNou; va rezulta numarul cu cifrele lui n de la STANGA la DREAPTA
+put *= 10
+put = 1 initial
+*/
